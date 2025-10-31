@@ -10,7 +10,7 @@ import Toast from 'vue-toastification';
 import { POSITION } from 'vue-toastification';
 import "vue-toastification/dist/index.css";
 import VueScrollTo from 'vue-scrollto';
-import CKEditor from '@ckeditor/ckeditor5-vue';   
+import { CKEditor } from '@ckeditor/ckeditor5-vue';
 
 const options= {
   position: POSITION.TOP_RIGHT,
