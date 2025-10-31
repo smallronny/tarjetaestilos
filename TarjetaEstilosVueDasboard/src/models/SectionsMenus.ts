@@ -1,0 +1,20 @@
+class SectionsMenus{
+    created_at:Date|null;
+    updated_at:Date|null;
+    deleted_at:Date|null;
+    id:number|null;
+    section_id:number|null;
+    menu_id:number|null;
+
+    constructor(
+        created_at:Date|null, updated_at:Date|null, deleted_at:Date|null, id:number|null=null,section_id:number|null=null,menu_id:number|null=null
+    ){
+        this.created_at = created_at;
+        this.updated_at = updated_at;
+        this.deleted_at = deleted_at;
+        this.id = id;
+        this.section_id =section_id;
+        this.menu_id = menu_id;
+    }
+};
+export default SectionsMenus;
